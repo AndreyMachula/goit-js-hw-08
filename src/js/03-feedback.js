@@ -14,7 +14,7 @@ const onFormInput = () => {
 };
 
 // Adding a listener to a form and updating in 500 milliseconds
-feedBackForm.addEventListener("input", throttle(onFormInput, 5000));
+feedBackForm.addEventListener("input", throttle(onFormInput, 500));
 
 
 // Getting data from local storage
